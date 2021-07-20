@@ -24,7 +24,7 @@ const HasilSeleksi = ({post}) => {
 }
 
 export async function getStaticPaths() {
-    const response = await fetch('https://laskar2021.vercel.app/api/nim')
+    const response = await fetch('/api/nim')
     const listNIM = await response.json();
     console.log(listNIM);
     const paths = listNIM.data.map((data) => ({
@@ -35,7 +35,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-    const res = await fetch(`https://laskar2021.vercel.app/api/${params.nim}`)
+    const res = await fetch(`/api/${params.nim}`)
     const post = await res.json()
     return { props: { post } }
   }
