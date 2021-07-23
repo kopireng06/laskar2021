@@ -1,0 +1,12 @@
+1. LIST NIM
+
+nim:["081811633001",
+     "081811633002",
+     "081811633003"]
+
+
+2. DATA KELULUSAN
+
+"081811633001":["Naufal Ghani Achmani","LULUS","3.8","https://drive.google.com/file/d/14HxWWhrULmV34crSQ1bn0ikHX3HLPuJs/view?usp=sharing"],
+"081811633002":["Achmani Ghani Naufal","TIDAK LULUS"],
+"081811633003":["Putri Nazika","LULUS","3.8","https://drive.google.com/file/d/14HxWWhrULmV34crSQ1bn0ikHX3HLPuJs/view?usp=sharing"]

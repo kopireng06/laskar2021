@@ -1,4 +1,24 @@
 .shadow-custom{
   box-shadow: rgb(0, 0, 0) 0px 1px 3px -1px;
 }
-
+@media screen and (min-width: 1024px) {
+  .h-90 {
+    height: 22rem;
+  }
+}
+.color-laskar{
+  background: linear-gradient(to right, rgb(21,51,61), rgb(182, 174, 156));
+}
+.text-color-laskar{
+  background: linear-gradient(to right, rgb(17, 41, 49), rgb(182, 174, 156));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.color-laskar-2{
+  background: linear-gradient(to right, rgb(52, 211, 153), rgb(96, 165, 250));
+}
+.text-color-laskar-2{
+  background: linear-gradient(to right, rgb(52, 211, 153), rgb(96, 165, 250));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
