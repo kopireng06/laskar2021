@@ -1,7 +1,8 @@
 import 'tailwindcss/dist/tailwind.css'
 import Layout from '../components/Layout'
 import styles from '../styles/globals.css'
-import {useEffect, useState} from 'react';
+import Head from 'next/head'
+import { useState } from 'react';
 import React from 'react';
 
 export const ThemeContext = React.createContext();
@@ -26,6 +27,11 @@ function MyApp({ Component, pageProps }) {
   return(
     <ThemeContext.Provider value={{themeLaskar,setThemeLaskar}}>
       <Layout>
+        <Head>
+          <title>LASKAR 2021</title>
+          <meta name="description" content="LASKAR 2021" />
+          <link rel="icon" href="/logo-laskar.png" />
+        </Head>
         <Component {...pageProps} />
       </Layout>
       <style jsx global>{`

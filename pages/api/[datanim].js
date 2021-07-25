@@ -1,12 +1,6 @@
-export default function handler(req, res) {
-    const dataKelulusan = {
-        "1":"lulus",
-        "2":"tidak-lulus"
-    }
-    const { datanim } = req.query
-    const coba = {
-        "value":dataKelulusan[datanim]
-    }
+import { dataKelulusan } from "../../components/DataSeleksi"
 
-    res.status(200).json(coba)
-  }
+export default function handler(req, res) {
+    const { datanim } = req.query
+    res.status(200).json(dataKelulusan[datanim])
+}

@@ -12,6 +12,7 @@ const CardHasilSeleksi = ({post}) => {
     const handleClickGagal = () =>{
         router.push('/');
     }
+    
     return (  
         <div className={`p-5 transition-all duration-1000 w-full lg:w-1/2 
         relative rounded-lg shadow-custom overflow-hidden mt-10 mb-20 ${isDark ? valueTheme.backgroundDark2 : valueTheme.backgroundWhite}`}>
