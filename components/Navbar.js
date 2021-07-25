@@ -10,12 +10,6 @@ const Navbar = () => {
     const {valueTheme} = useContext(ThemeContext).themeLaskar;
     const {setThemeLaskar} = useContext(ThemeContext);
 
-    // useEffect(()=>{
-    //     setTimeout(()=>{
-    //         changeDarkMode(isDark);
-    //     },2000)
-    // },[])
-
     const changeDarkMode = () => {
         setThemeLaskar({...themeLaskar,"isDark":!isDark});
     }

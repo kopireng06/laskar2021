@@ -50,7 +50,7 @@ const CardHasilSeleksi = ({post}) => {
                             <>
                                 <p className={`max-w-lg transition-all duration-1000 text-center text-sm ${isDark ? 'text-white' : 'text-black'}`}>
                                     Selamat kamu telah berhasil <span>{post.value[1]}</span> sebagai peserta LASKAR 2021 dengan IPK sebesar <b>{post.value[2]}</b>
-                                    , Semoga ilmu kamu berkah, manfaat, dan tentunya dapat diamalkan di kehidupan sehari-hari. Silahkan untuk melihat rapot kelulusan kamu dibawah ini
+                                    , Semoga ilmu kamu berkah, manfaat, dan tentunya dapat diamalkan di kehidupan sehari-hari. Silakan untuk melihat rapot kelulusan kamu dibawah ini
                                 </p>
                                 <a  href={post.value[3]} rel="noreferrer" target="_blank"
                                  className="text-center w-full bg-green-500 p-3 mt-5 lg:mt-10 rounded text-white font-bold">Lihat Rapot</a>
