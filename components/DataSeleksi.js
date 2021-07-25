@@ -3,12 +3,12 @@ export const listNIM = {nim:["081811633001","081911533009","081911233014","08191
 "131911133057","061911133160","061911133179","061811133077","011911133165","011911133204","011911133290",
 "011811133042","011911133187","011911133189","151910483004","151911713004","151910813045","141911233016",
 "141911133035","141811133021","141811133123","141911233023","141811133058","121911433069","071911233085",
-"071911333103","111911133020","111911133035","111911133049","111811133120","041811233093","041911433041",
+"111911133020","111911133035","111911133049","111811133120","041811233093","041911433041",
 "051911133217","051911133054","081811733035","081911433094","081811233007","081811733028","081911433009",
 "081811733014","101911133014","101911133231","101911133071","131911133005","061811133008","011911133237",
 "011911233072","151911713004","151911813043","151810483024","141911133101","121911133161","071911333026",
 "041911433020","051811133113","141911133154","141911133009","101811133089","131811133062","141911233102",
-"141911233071","141811133066","121911433034","071911733006",]};
+"141911233071","141811133066","121911433034","071911733006","071911533103"]};
 
 export const dataKelulusan = {
     "081811633001":["Naufal Ghani Achmani","LULUS","3.8","https://drive.google.com/file/d/14HxWWhrULmV34crSQ1bn0ikHX3HLPuJs/view?usp=sharing"],
@@ -44,7 +44,7 @@ export const dataKelulusan = {
     "141811133058":["Qurrota A'yun","LULUS","3,29","https://drive.google.com/file/d/19s-eoCYp_XLIwUA0GknLSIK8ale5hoRK/view?usp=sharing"],
     "121911433069":["Lulu Luthfiyani","LULUS","3,68","https://drive.google.com/file/d/1eQwqz_BrWgF9f581A7yC0_26rnH0JfwY/view?usp=sharing"],
     "071911233085":["Fauziah Khanza Andrian","LULUS","3,70","https://drive.google.com/file/d/1PrpNrHQfFaLtbEsPpWpvqQGGQb4CyvLU/view?usp=sharing"],
-    "071911333103":["Gusti Fadhila Rohmah","LULUS","3,44","https://drive.google.com/file/d/1i8dtKgZwRz0AOnk2jj4vGqmbB9h5C5YH/view?usp=sharing"],
+    "071911533103":["Gusti Fadhila Rohmah","LULUS","3,44","https://drive.google.com/file/d/1i8dtKgZwRz0AOnk2jj4vGqmbB9h5C5YH/view?usp=sharing"],
     "111911133020":["Amara Shafa Sabila","LULUS","3,26","https://drive.google.com/file/d/1JtMwO-DBFxjticey2V88vKc8vd0ohvD3/view?usp=sharing"],
     "111911133035":["Nadia Nahdatur Ramadhani","LULUS","3,56","https://drive.google.com/file/d/18-AH8GQPBbCDG5Dg_Wj9vW9hZPD5pWDG/view?usp=sharing"],
     "111911133049":["Salma Salsabila Prayitno","LULUS","3,69","https://drive.google.com/file/d/1AxQgZJHcAsWO2DgGM34pfiU1Qggu4AYE/view?usp=sharing"],
